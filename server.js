@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
 app.get('/version', function (req, res) {
   console.log('version');
   res.json({
-    version: 'v.1.0'
+    version: 'v.1.1'
   });
 });
 
